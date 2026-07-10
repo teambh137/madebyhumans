@@ -1,24 +1,121 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Made By Humans</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 640px;
-      margin: 80px auto;
-      padding: 0 24px;
-      line-height: 1.5;
-      color: #111;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>made by humans — this domain is available</title>
+<meta name="description" content="The domain madebyhumans.com is available. Inquiries: tanja@madebyhumans.net">
+<meta name="robots" content="index,follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#ECEBE6;
+    --ink:#1D2433;
+    --ink-blue:#27425F;
+    --faded:#A9A79E;
+    --rule:#C6C4BB;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"EB Garamond",Georgia,serif;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:2rem 1.5rem;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  main{
+    max-width:34rem;
+    width:100%;
+    text-align:center;
+    animation:settle 1.4s ease-out both;
+  }
+  @keyframes settle{
+    from{opacity:0;transform:translateY(6px)}
+    to{opacity:1;transform:none}
+  }
+  @media (prefers-reduced-motion:reduce){
+    main{animation:none}
+  }
+  .rule{
+    width:3.5rem;
+    height:1px;
+    background:var(--rule);
+    border:none;
+    margin:0 auto;
+  }
+  h1{
+    font-size:clamp(2.4rem,7vw,3.6rem);
+    font-weight:500;
+    letter-spacing:-0.015em;
+    line-height:1.1;
+    margin:2.2rem 0 0.4rem;
+  }
+  .fleuron{
+    display:block;
+    color:var(--ink-blue);
+    font-size:1.5rem;
+    line-height:1;
+    margin:1.6rem auto 1.7rem;
+  }
+  .statement{
+    font-size:1.25rem;
+    font-style:italic;
+    color:var(--ink);
+    margin-bottom:2.4rem;
+  }
+  .statement a{
+    color:var(--ink-blue);
+    text-decoration:none;
+    border-bottom:1px solid var(--rule);
+    transition:border-color .2s ease;
+  }
+  .statement a:hover{border-color:var(--ink-blue)}
+  .statement a:focus-visible{outline:2px solid var(--ink-blue);outline-offset:3px}
+  .contact{
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    font-size:0.85rem;
+    letter-spacing:0.02em;
+  }
+  .contact .label{
+    display:block;
+    color:var(--faded);
+    text-transform:uppercase;
+    letter-spacing:0.18em;
+    font-size:0.66rem;
+    margin-bottom:0.55rem;
+  }
+  .contact a{
+    color:var(--ink-blue);
+    text-decoration:none;
+    border-bottom:1px solid var(--rule);
+    padding-bottom:1px;
+    transition:border-color .2s ease;
+  }
+  .contact a:hover{border-color:var(--ink-blue)}
+  .contact a:focus-visible{
+    outline:2px solid var(--ink-blue);
+    outline-offset:3px;
+    border-bottom-color:transparent;
+  }
+</style>
 </head>
 <body>
-  <h1>Made By Humans is now Light Codes Studio</h1>
-  <p>Light Codes Studio is focused on art candles, scent, and object-based design.</p>
-  <p>For current products, wholesale inquiries, and studio updates, please visit:<br>
-  <a href="https://lightcodesstudio.ca">LightCodesStudio.ca</a></p>
+<main>
+  <hr class="rule" aria-hidden="true">
+  <h1>made by humans</h1>
+  <span class="fleuron" aria-hidden="true">&#10087;</span>
+  <p class="statement">We now make candles under a new name &mdash; <a href="https://lightcodesstudio.ca" rel="noopener">Light Codes Studio</a>.</p>
+  <p class="contact">
+    <span class="label">Interested in the madebyhumans.com domain?</span>
+    <a href="mailto:tanja@madebyhumans.net">tanja@madebyhumans.net</a>
+  </p>
+</main>
 </body>
 </html>
